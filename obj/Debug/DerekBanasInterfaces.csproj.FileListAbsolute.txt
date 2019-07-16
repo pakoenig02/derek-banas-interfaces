@@ -1,0 +1,7 @@
+C:\Users\Marco Wessel\source\repos\Tutorials\DerekBanasInterfaces\bin\Debug\DerekBanasInterfaces.exe.config
+C:\Users\Marco Wessel\source\repos\Tutorials\DerekBanasInterfaces\bin\Debug\DerekBanasInterfaces.exe
+C:\Users\Marco Wessel\source\repos\Tutorials\DerekBanasInterfaces\bin\Debug\DerekBanasInterfaces.pdb
+C:\Users\Marco Wessel\source\repos\Tutorials\DerekBanasInterfaces\obj\Debug\DerekBanasInterfaces.csprojAssemblyReference.cache
+C:\Users\Marco Wessel\source\repos\Tutorials\DerekBanasInterfaces\obj\Debug\DerekBanasInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Marco Wessel\source\repos\Tutorials\DerekBanasInterfaces\obj\Debug\DerekBanasInterfaces.exe
+C:\Users\Marco Wessel\source\repos\Tutorials\DerekBanasInterfaces\obj\Debug\DerekBanasInterfaces.pdb
