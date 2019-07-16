@@ -12,9 +12,11 @@ namespace DerekBanasInterfaces
         private Television Television { get; set; }
         public int Volume { get; set; }
 
+        private string exceptionMessageBeginning = "No television is connected.";
+
         public TelevisionRemoteControl()
         {
-            Console.WriteLine("The television remote control has no television to control, please assign one.");
+            Console.WriteLine(exceptionMessageBeginning);
         }
 
         public TelevisionRemoteControl(Television television)
@@ -30,17 +32,38 @@ namespace DerekBanasInterfaces
 
         public void VolumeUp()
         {
-            this.Television.VolumeUp();
+            try
+            {
+                this.Television.VolumeUp();
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine($"{exceptionMessageBeginning} Increase volume not possible.");
+            }
         }
 
         public void VolumeDown()
         {
-            this.Television.VolumeDown();
+            try
+            {
+                this.Television.VolumeDown();
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine($"{exceptionMessageBeginning} Decrease volume not possible.");
+            }
         }
 
         public void PressPowerButton()
         {
-            this.Television.PressPowerButton();
+            try
+            {
+                this.Television.PressPowerButton(); 
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine($"{exceptionMessageBeginning} Powerbutton press has no effect");
+            }
         }
     }
 }
