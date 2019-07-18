@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeviceStates.cs" />
     <Compile Include="Interfaces\IElectronicDevice.cs" />
     <Compile Include="Interfaces\IPowerButton.cs" />
     <Compile Include="Interfaces\IVolumeControl.cs" />

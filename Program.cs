@@ -8,6 +8,8 @@ namespace DerekBanasInterfaces
 {
     class Program
     {
+        //TODO implement DevicesStates enums for electric devices (tv)
+
         static void Main(string[] args)
         {
             Television television = new Television();
@@ -16,7 +18,7 @@ namespace DerekBanasInterfaces
             televisionRemoteControl.VolumeUp();
             televisionRemoteControl.PressPowerButton();
 
-            televisionRemoteControl.setTelevision(television);
+            televisionRemoteControl.SetTelevision(television);
             televisionRemoteControl.PressPowerButton();
             televisionRemoteControl.VolumeUp();
 

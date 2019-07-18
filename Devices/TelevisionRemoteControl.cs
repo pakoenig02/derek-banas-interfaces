@@ -12,7 +12,7 @@ namespace DerekBanasInterfaces
         private Television Television { get; set; }
         public int Volume { get; set; }
 
-        private string exceptionMessageBeginning = "No television is connected.";
+        private readonly string exceptionMessageBeginning = "No television is connected.";
 
         public TelevisionRemoteControl()
         {
@@ -21,10 +21,10 @@ namespace DerekBanasInterfaces
 
         public TelevisionRemoteControl(Television television)
         {
-            setTelevision(television);
+            SetTelevision(television);
         }
 
-        public void setTelevision(Television television)
+        public void SetTelevision(Television television)
         {
             this.Television = television;
             this.Volume = television.Volume;

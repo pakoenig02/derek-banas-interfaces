@@ -14,8 +14,8 @@ namespace DerekBanasInterfaces
 
         public void PressPowerButton()
         {
-            if (isRunning) Off();
-            else On();
+            if (isRunning) { Off(); }
+            else { On(); }
         }
 
         public void Off()
@@ -32,13 +32,13 @@ namespace DerekBanasInterfaces
 
         public void VolumeDown()
         {
-            if (Volume != 0) Volume--;
+            if (Volume != 0) { Volume--; }
             Console.WriteLine($"The TV Volume is at {Volume}");
         }
 
         public void VolumeUp()
         {
-            if (Volume != 100) Volume++;
+            if (Volume != 100) { Volume++; }
             Console.WriteLine($"The TV Volume is at {Volume}");
         }
     }
